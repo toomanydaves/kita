@@ -41,12 +41,6 @@ Logging in to db with user to confirm success.
 
 ### Add a superuser
     python3 manage.py createsuperuser
-
-### Make migrations
-    python3 manage.py makemigrations
-    
-### Run migrations
-    python3 manage.py migrate
     
 ### Start the server to visit the site
     python3 manage.py runserver
