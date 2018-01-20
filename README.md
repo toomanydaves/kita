@@ -7,7 +7,6 @@ Ein python server für die Verwaltung einer Kindertagesstätte insbesondere Elte
 *   git
 *   python3/pip3
 *   mysql
-*   [mysqlclient for django](https://docs.djangoproject.com/en/1.11/ref/databases/#mysql-db-api-drivers)
 
 ### Set up a Dev database
 Create a development database. Name it whatever you like.
