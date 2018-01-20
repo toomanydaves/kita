@@ -21,7 +21,7 @@ Create a user with a password and full access to the db.
 
 Logging in to db with user to confirm success.
 
-    mysql -u kita -p dev
+    mysql -u kita -p kita_dev
 
 ### Get and install the source
 
