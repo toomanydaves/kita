@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social.apps.SocialConfig',
 ]
 
 MIDDLEWARE = [
@@ -81,6 +82,11 @@ DATABASES = {
     }
 }
 
+# User substitution
+# https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user
+# https://www.fomfus.com/articles/how-to-use-email-as-username-for-django-authentication-removing-the-username
+
+AUTH_USER_MODEL = 'social.User'
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
